@@ -1,10 +1,9 @@
-
 pipeline {
     agent any
 
     tools {
-        maven 'maven'
-        jdk 'jdk-21'
+        maven 'Maven-3.9.12'   // must match Jenkins tool name
+        jdk 'jdk-21'           // must match your JDK name
     }
 
     stages {
